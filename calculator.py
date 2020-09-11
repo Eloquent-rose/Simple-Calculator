@@ -74,6 +74,7 @@ def equals():
     
     if(x[len(x) - 1] == "+" or x[len(x) - 1] == "-" or x[len(x) - 1] == "*" or x[len(x) - 1] == "/" or x[len(x) - 1] == "%" or x[len(x) - 1] == ""):
         mb.showerror("Error", "Invalid expression")
+        quit()
         S = ""
         L = []
         
